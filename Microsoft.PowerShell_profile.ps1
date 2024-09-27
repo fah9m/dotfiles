@@ -38,21 +38,21 @@ function update {
 }
 
 function upgrade {
-    Write-Host "Updating WinGet packages..." -ForegroundColor "Cyan"
+    Write-Host "Upgrading WinGet packages..." -ForegroundColor "Cyan"
     winget upgrade --all --accept-package-agreements --accept-source-agreements
 
-    Write-Host "`nUpdating Scoop packages..." -ForegroundColor "Cyan"
+    Write-Host "`nUpgrading Scoop packages..." -ForegroundColor "Cyan"
     scoop update
 	scoop update --all
     scoop status
 
-    Write-Host "`nUpdating Pip binary..." -ForegroundColor "Cyan"
+    Write-Host "`nUpgrading Pip binary..." -ForegroundColor "Cyan"
     python.exe -m pip install --upgrade pip
 
-    Write-Host "`nUpdating Pipx packages..." -ForegroundColor "Cyan"
+    Write-Host "`nUpgrading Pipx packages..." -ForegroundColor "Cyan"
     pipx upgrade-all --verbose
     
-    Write-Host "`nUpdating Windows system..." -ForegroundColor "Cyan"
+    Write-Host "`nUpgrading Windows system..." -ForegroundColor "Cyan"
     gsudo Get-WindowsUpdate -AcceptAll -Install -IgnoreReboot -Verbose
 
     Remove-ItemSafely "$HOME\Desktop\*.lnk", "C:\Users\Public\Desktop\*.lnk"
