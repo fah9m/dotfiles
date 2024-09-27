@@ -27,35 +27,37 @@ function wi {
 }
 
 function update { 
-    Write-Host "Checking winget updates..." -ForegroundColor "Cyan"
+    Write-Host "Checking updates for WinGet packages..." -ForegroundColor "Cyan"
     winget upgrade --include-pinned
 
-    Write-Host "`nChecking scoop updates..." -ForegroundColor "Cyan"
+    Write-Host "`nChecking updates for Scoop packages..." -ForegroundColor "Cyan"
 	scoop status
 
-    Write-Host "`nChecking windows updates..." -ForegroundColor "Cyan"
-    sudo Get-WindowsUpdate -Verbose
+    Write-Host "`nChecking updates for Windows system..." -ForegroundColor "Cyan"
+    gsudo Get-WindowsUpdate -Verbose
 }
 
 function upgrade {
-    Write-Host "Updating winget packages..." -ForegroundColor "Cyan"
+    Write-Host "Updating WinGet packages..." -ForegroundColor "Cyan"
     winget upgrade --all --accept-package-agreements --accept-source-agreements
 
-    Write-Host "`nUpdating scoop packages..." -ForegroundColor "Cyan"
+    Write-Host "`nUpdating Scoop packages..." -ForegroundColor "Cyan"
     scoop update
 	scoop update --all
     scoop status
 
-    Write-Host "`nUpdating pip..." -ForegroundColor "Cyan"
+    Write-Host "`nUpdating Pip binary..." -ForegroundColor "Cyan"
     python.exe -m pip install --upgrade pip
 
-    Write-Host "`nUpdating pipx packages..." -ForegroundColor "Cyan"
+    Write-Host "`nUpdating Pipx packages..." -ForegroundColor "Cyan"
     pipx upgrade-all --verbose
     
-    Write-Host "`nUpdating windows..." -ForegroundColor "Cyan"
-    sudo Get-WindowsUpdate -AcceptAll -Install -IgnoreReboot -Verbose
+    Write-Host "`nUpdating Windows system..." -ForegroundColor "Cyan"
+    gsudo Get-WindowsUpdate -AcceptAll -Install -IgnoreReboot -Verbose
 
-    Remove-ItemSafely $HOME\Desktop\*.lnk, C:\Users\Public\Desktop\*.lnk
+    Remove-ItemSafely "$HOME\Desktop\*.lnk", "C:\Users\Public\Desktop\*.lnk"
+
+    Write-Host "System and packages are up to date." -ForegroundColor "Green"
 }
 
 # Network
