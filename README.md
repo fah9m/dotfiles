@@ -101,3 +101,8 @@ IPv4: `94.140.14.14` <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `94.1
 IPv6: `2a10:50c0::ad1:ff` <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `2a10:50c0::ad2:ff` <br/>
 DOH: `https://dns.adguard-dns.com/dns-query` <br/>
 DOT: `tls://dns.adguard-dns.com` <br/>
+
+### Tweaks
+###### Disable IDM Update Check:
+- Open regedit & goto `Computer\HKEY_CURRENT_USER\Software\DownloadManager`
+- Double click on `LstCheck` & change the year value to `99`.
