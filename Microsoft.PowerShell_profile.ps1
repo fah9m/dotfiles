@@ -60,6 +60,17 @@ function upgrade {
     Write-Host "System and packages are up to date." -ForegroundColor "Green"
 }
 
+# Repair
+function Check-Windows-Health {
+    gsudo DISM /Online /Cleanup-Image /CheckHealth
+    gsudo DISM /Online /Cleanup-Image /ScanHealth
+}
+
+function Repair-Windows-Health {
+    gsudo sfc /scannow
+    gsudo DISM /Online /Cleanup-Image /RestoreHealth
+}
+
 # Network
 function flushdns {
     Clear-DnsClientCache
