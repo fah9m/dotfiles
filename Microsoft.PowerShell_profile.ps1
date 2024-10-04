@@ -61,12 +61,12 @@ function upgrade {
 }
 
 # Repair
-function Check-Windows-Health {
+function Check-WindowsHealth {
     gsudo DISM /Online /Cleanup-Image /CheckHealth
     gsudo DISM /Online /Cleanup-Image /ScanHealth
 }
 
-function Repair-Windows-Health {
+function Repair-WindowsHealth {
     gsudo sfc /scannow
     gsudo DISM /Online /Cleanup-Image /RestoreHealth
 }
