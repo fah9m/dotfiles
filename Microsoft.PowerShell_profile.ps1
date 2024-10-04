@@ -105,6 +105,7 @@ function hb {
         $response = Invoke-RestMethod -Uri $uri -Method Post -Body $Content -ErrorAction Stop
         $hasteKey = $response.key
         $url = "http://bin.christitus.com/$hasteKey"
+        Set-Clipboard $url
         Write-Output $url
     }
     catch {
