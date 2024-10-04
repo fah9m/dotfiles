@@ -106,3 +106,7 @@ DOT: `tls://dns.adguard-dns.com` <br/>
 ###### Disable IDM Update Check:
 - Open regedit & goto `Computer\HKEY_CURRENT_USER\Software\DownloadManager`
 - Double click on `LstCheck` & change the year value to `99`.
+
+### Credits
+- https://github.com/yokoffing/Betterfox
+- https://github.com/ChrisTitusTech/powershell-profile
