@@ -31,6 +31,4 @@ x.com##.r-ttdzmv.r-vacyoi.css-175oi2r > div.css-175oi2r > .r-1udh08x.r-1ifxtd0.r
 ! trakt.tv
 trakt.tv###om1gYCfRiN-IGJj59JMAC-wrapper
 
-! youtube.com
-www.youtube.com##tp-yt-paper-dialog.ytd-popup-container.style-scope > .ytd-popup-container.style-scope
 
