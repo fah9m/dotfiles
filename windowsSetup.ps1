@@ -66,7 +66,7 @@ function Disable-ServiceStartup {
     }
 }
 
-Write-Host "`nLimiting Windows updates to only security updates..." -ForegroundColor "Cyan"    
+Write-Host "`nLimiting Windows update to only security updates..." -ForegroundColor "Cyan"    
 Set-RegistryValue -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\Device Metadata" -Name "PreventDeviceMetadataFromNetwork" -Value 1
 Set-RegistryValue -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\DriverSearching" -Name "DontPromptForWindowsUpdate" -Value 1
 Set-RegistryValue -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\DriverSearching" -Name "DontSearchWindowsUpdate" -Value 1
