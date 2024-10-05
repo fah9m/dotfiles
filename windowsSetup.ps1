@@ -87,4 +87,4 @@ Write-Host "Done" -ForegroundColor "Green"
 # Remove desktop Icons
 Write-Host "`nRemoving desktop icons..." -ForegroundColor "Cyan"
 Remove-ItemSafely $HOME\Desktop\*.lnk, C:\Users\Public\Desktop\*.lnk
-Write-Host "Done" -ForegroundColor "Green"
+Write-Host "Windows setup completed successfully." -ForegroundColor "Green"
