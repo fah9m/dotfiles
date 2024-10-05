@@ -81,7 +81,7 @@ Write-Host "Done" -ForegroundColor "Green"
 Write-Host "`nDisabling automatic Windows update..." -ForegroundColor "Cyan"
 Set-RegistryValue -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU" -Name "NoAutoUpdate" -Value 1
 Set-RegistryValue -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\DeliveryOptimization\Config" -Name "DODownloadMode" -Value 0    
-Disable-ServiceStartup -Services @("BITS", "wuauserv")    
+Disable-ServiceStartup -Services @("BITS", "wuauserv")
 Write-Host "Done" -ForegroundColor "Green"
 
 # Remove desktop Icons
