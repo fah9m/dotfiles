@@ -14,6 +14,7 @@
 // @match        *://*.rumble.com/*
 // @match        *://*.tiktok.com/*
 // @match        *://*.patreon.com/*
+// @match        *://*.bitchute.com/*
 // @downloadURL  https://github.com/fahim-ahmed05/dotfiles/raw/main/videoSpeed2x.user.js
 // @updateURL    https://github.com/fahim-ahmed05/dotfiles/raw/main/videoSpeed2x.user.js
 // @grant        none
