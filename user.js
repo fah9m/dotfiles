@@ -126,6 +126,7 @@ user_pref("gfx.font_rendering.directwrite.use_gdi_table_loading", false);
 user_pref("gfx.font_rendering.cleartype_params.gamma", 1750);
 user_pref("gfx.font_rendering.cleartype_params.enhanced_contrast", 100);
 user_pref("gfx.font_rendering.cleartype_params.pixel_structure", 1)
+user_pref("dom.text_fragments.enabled", true);
 
 // Scrolling
 user_pref("apz.overscroll.enabled", true);
@@ -163,3 +164,6 @@ user_pref("security.tls.enable_0rtt_data", false);
 user_pref("media.peerconnection.ice.proxy_only_if_behind_proxy", true);
 user_pref("media.peerconnection.ice.default_address_only", true);
 user_pref("browser.safebrowsing.downloads.remote.enabled", false);
+
+// Extensions
+user_pref("extensions.enabledScopes", 5);
