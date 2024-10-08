@@ -59,6 +59,7 @@ Click on script name and select Install +Close.
 6. uBlock Origin [Firefox](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) [Chrome](https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en) [Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
 7. Violentmonkey [Firefox](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/) [Chrome](https://chromewebstore.google.com/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag) [Edge](https://microsoftedge.microsoft.com/addons/detail/violentmonkey/eeagobfjdenkkddmbclomhiblgggliao)
 8. Web Scrobbler [Firefox](https://addons.mozilla.org/en-US/firefox/addon/web-scrobbler/) [Chrome](https://chromewebstore.google.com/detail/web-scrobbler/hhinaapppaileiechjoiifaancjggfjm?hl=en) [Edge](https://microsoftedge.microsoft.com/addons/detail/web-scrobbler/obiekdelmkmlgnhddmmnpnfhngejbnnc)
+9. Firefox Multi-Account Containers [Firefox](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)
 
 ###### Shortcut Keys
 - Bitwarden Password Manager
