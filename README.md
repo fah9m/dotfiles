@@ -25,7 +25,10 @@ Click on script name and select Install +Close.
 
 ### Powershell
 ###### Execution Policy
-- Execute `Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted`
+- Change to unrestricted
+```
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+```
 
 ###### Packages
 1. [Recycle](https://www.powershellgallery.com/packages/Recycle) `Install-Module -Name Recycle`
@@ -33,7 +36,10 @@ Click on script name and select Install +Close.
 3. [Z](https://www.powershellgallery.com/packages/z) `Install-Module -Name z -AllowClobber`
 
 ###### Prompt
-- Install `winget install JanDeDobbeleer.OhMyPosh -s winget`
+- Install Oh My Posh
+```
+winget install JanDeDobbeleer.OhMyPosh -s winget
+```
 
 ###### Profile
 1. Open powershell/terminal
