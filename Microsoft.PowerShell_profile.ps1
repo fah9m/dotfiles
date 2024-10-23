@@ -115,3 +115,12 @@ function hb {
 
 # Node
 fnm env --use-on-cd --shell power-shell | Out-String | Invoke-Expression
+
+# Scoop
+Invoke-Expression (&scoop-search --hook)
+
+# Chocolatey
+$ChocolateyProfile = "$env:ChocolateyInstall\helpers\chocolateyProfile.psm1"
+if (Test-Path($ChocolateyProfile)) {
+  Import-Module "$ChocolateyProfile"
+}
