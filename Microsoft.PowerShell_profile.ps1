@@ -26,7 +26,7 @@ function wi {
     Remove-ItemSafely $HOME\Desktop\*.lnk, C:\Users\Public\Desktop\*.lnk 
 }
 
-function update { 
+function wul { 
     Write-Host "Checking updates for WinGet packages..." -ForegroundColor "Cyan"
     winget upgrade --include-pinned
 
@@ -37,7 +37,7 @@ function update {
     gsudo Get-WindowsUpdate -Verbose
 }
 
-function upgrade {
+function wu {
     Write-Host "Upgrading WinGet packages..." -ForegroundColor "Cyan"
     winget upgrade --all --accept-package-agreements --accept-source-agreements
 
