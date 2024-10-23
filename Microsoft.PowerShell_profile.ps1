@@ -18,7 +18,11 @@ Set-PSReadLineOption -Colors @{
 function reloadterminal { exit & wt }
 
 # Winget
-function ws { winget search @args }
+function ws { 
+    winget search @args
+    choco search @args
+    scoop search @args
+}
 
 function wi {
     winget install @args --accept-package-agreements --accept-source-agreements
