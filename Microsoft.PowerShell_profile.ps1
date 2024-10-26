@@ -18,9 +18,14 @@ Set-PSReadLineOption -Colors @{
 function reloadterminal { exit & wt }
 
 # Winget
-function ws { 
+function ws {
+    Write-Host "Found WinGet packages..." -ForegroundColor "Cyan" 
     winget search @args
+
+    Write-Host "Found Chocolatey packages..." -ForegroundColor "Cyan"
     choco search @args
+    
+    Write-Host "Found Scoop packages..." -ForegroundColor "Cyan"
     scoop search @args
 }
 
@@ -49,6 +54,9 @@ function wu {
     scoop update
 	scoop update --all
     scoop status
+
+    Write-Host "`nUpgrading Chocolatey packages..." -ForegroundColor "Cyan"
+    gsudo choco upgrade all -y
 
     Write-Host "`nUpgrading Pip binary..." -ForegroundColor "Cyan"
     python.exe -m pip install --upgrade pip
