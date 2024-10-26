@@ -118,3 +118,4 @@ DOT: `tls://dns.adguard-dns.com` <br/>
 ### Credits
 - https://github.com/yokoffing/Betterfox
 - https://github.com/ChrisTitusTech/powershell-profile
+- https://www.reddit.com/r/uBlockOrigin/wiki/solutions/youtube/
