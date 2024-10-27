@@ -112,8 +112,8 @@ DOT: `dns.adguard-dns.com`
 DOH: `https://dns.adguard-dns.com/dns-query` <br/>
 
 ###### Mullvad
-DOT: `base.dns.mullvad.net`
-DOH: `https://base.dns.mullvad.net/dns-query` <br/>
+DOT: `base.dns.mullvad.net` <br/>
+DOH: `https://base.dns.mullvad.net/dns-query`
 
 ### Tweaks
 ###### Disable IDM Update Check:
