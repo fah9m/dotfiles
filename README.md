@@ -104,11 +104,16 @@ yt-dlp
 ###### Fonts
 [Inter](https://rsms.me/inter/download/), [FiraCode-NF, CascadiaCode-NF, JetBrainsMono-NF, Meslo-NF, SpaceMono-NF, UbuntuSans-NF](https://github.com/ryanoasis/nerd-fonts/releases), [SolaimanLipi, AdorshoLipi](https://www.omicronlab.com/bangla-fonts.html), [Ekushey Lal Salu Normal](https://ekushey.org/fonts/)
 
-###### DNS
+### DNS
+###### Adguard
 IPv4: `94.140.14.14` <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `94.140.15.15` <br/>
 IPv6: `2a10:50c0::ad1:ff` <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `2a10:50c0::ad2:ff` <br/>
+DOT: `dns.adguard-dns.com`
 DOH: `https://dns.adguard-dns.com/dns-query` <br/>
-DOT: `tls://dns.adguard-dns.com` <br/>
+
+###### Mullvad
+DOT: `base.dns.mullvad.net`
+DOH: `https://base.dns.mullvad.net/dns-query` <br/>
 
 ### Tweaks
 ###### Disable IDM Update Check:
