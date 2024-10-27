@@ -108,8 +108,8 @@ yt-dlp
 ###### Adguard
 IPv4: `94.140.14.14` <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `94.140.15.15` <br/>
 IPv6: `2a10:50c0::ad1:ff` <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `2a10:50c0::ad2:ff` <br/>
-DOT: `dns.adguard-dns.com`
-DOH: `https://dns.adguard-dns.com/dns-query` <br/>
+DOT: `dns.adguard-dns.com` <br/>
+DOH: `https://dns.adguard-dns.com/dns-query`
 
 ###### Mullvad
 DOT: `base.dns.mullvad.net` <br/>
