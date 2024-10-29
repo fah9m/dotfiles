@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Video Speed 2x for Meta sites, X, Rumble, TikTok etc
 // @namespace    Violentmonkey Scripts
-// @homepage     https://github.com/fahim-ahmed05/dotfiles
+// @homepage     https://github.com/fah9m/dotfiles
 // @version      1.5
 // @description  Automatically sets video speed to 2x on Meta sites, X, Rumble, TikTok etc. Allows toggling between 1x and 2x speed using shortcuts.
 // @author       Fahim Ahmed
@@ -15,8 +15,8 @@
 // @match        *://*.tiktok.com/*
 // @match        *://*.patreon.com/*
 // @match        *://*.bitchute.com/*
-// @downloadURL  https://github.com/fahim-ahmed05/dotfiles/raw/main/videoSpeed2x.user.js
-// @updateURL    https://github.com/fahim-ahmed05/dotfiles/raw/main/videoSpeed2x.user.js
+// @downloadURL  https://github.com/fah9m/dotfiles/raw/main/videoSpeed2x.user.js
+// @updateURL    https://github.com/fah9m/dotfiles/raw/main/videoSpeed2x.user.js
 // @grant        none
 // ==/UserScript==
 
