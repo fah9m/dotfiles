@@ -3,7 +3,7 @@ I use these daily! 👀
 
 ### Violentmonkey
 Click on script name and select Install +Close.
-1. [Video Speed 2x](https://raw.githubusercontent.com/fahim-ahmed05/dotfiles/main/videoSpeed2x.user.js)
+1. [Video Speed 2x](https://raw.githubusercontent.com/fah9m/dotfiles/main/videoSpeed2x.user.js)
 2. [Return YouTube Dislike](https://github.com/Anarios/return-youtube-dislike/raw/main/Extensions/UserScript/Return%20Youtube%20Dislike.user.js)
 
 #### Note
@@ -12,14 +12,14 @@ Click on script name and select Install +Close.
 
 ### Firefox
 ###### user.js
-1. Download [user.js](https://github.com/fahim-ahmed05/dotfiles/blob/main/user.js) file 
+1. Download [user.js](https://github.com/fah9m/dotfiles/blob/main/user.js) file 
 2. Open About Profiles page. Url `about:profiles`
 3. Goto default profile's root directory
 4. Copy and paste downloaded user.js file
 5. Click on restart normally button on About Profiles page.
 
 ###### userChrome.css
-1. Download [userChrome.css](https://github.com/fahim-ahmed05/dotfiles/blob/main/userChrome.css) file
+1. Download [userChrome.css](https://github.com/fah9m/dotfiles/blob/main/userChrome.css) file
 2. Put it inside profile_folder/chrome
 3. Restart the browser.
 
@@ -47,7 +47,7 @@ winget install JanDeDobbeleer.OhMyPosh -s winget
 3. If you have a profile then type `$profile` to know the profile path
 4. If you have a profile then goto the directory and open the profile file with a text editor
 5. If not to create a profile file type `New-Item -Path $profile -Type File -Force` 
-6. Open [my powershell profile file](https://github.com/fahim-ahmed05/dotfiles/blob/main/Microsoft.PowerShell_profile.ps1) and copy paste into yours the save the file and type `. $Profile` to reload the profile.
+6. Open [my powershell profile file](https://github.com/fah9m/dotfiles/blob/main/Microsoft.PowerShell_profile.ps1) and copy paste into yours the save the file and type `. $Profile` to reload the profile.
 
 #### Note
 - Follow the chronology!! 
@@ -96,7 +96,7 @@ yt-dlp
 ###### Setup Script
 - Manually install Python, Git
 - Install powershell packages
-- Now run the [script](https://github.com/fahim-ahmed05/dotfiles/blob/main/windowsSetup.ps1)
+- Now run the [script](https://github.com/fah9m/dotfiles/blob/main/windowsSetup.ps1)
 
 ###### Cursors
 [Bibata](https://github.com/ful1e5/Bibata_Cursor), [Posy](http://www.michieldb.nl/other/cursors/)
