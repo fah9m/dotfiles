@@ -3,8 +3,8 @@
 ! Version: 1.4.3
 ! Last modified: 2024-09-10 9:48 pm
 ! Expires: 2 weeks (update frequency)
-! Homepage: https://github.com/fah9m/dotfiles
-! License: https://github.com/fah9m/dotfiles/blob/main/LICENSE
+! Homepage: https://github.com/fahim-ahmed05/dotfiles
+! License: https://github.com/fahim-ahmed05/dotfiles/blob/main/LICENSE
 
 ! messenger.com - Hide install desktop app button in the bottom left
 www.messenger.com##.x1lku1pv.x5ib6vp.x18d9i69.xc73u3c.xexx8yu.xt55aet.x1c4vz4f.xknmibj.x1q0g3np.xozqiw3.x6s0dn4.x1qughib.xeuugli.xs83m0k.x1r8uery.x78zum5.x1ja2u2z.x1n2onr6.x9f619
