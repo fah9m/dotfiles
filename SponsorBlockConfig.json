@@ -1,51 +1,6 @@
 {
     "autoSkipOnMusicVideosUpdate": true,
-    "categorySelections": [
-        {
-            "name": "sponsor",
-            "option": 2
-        },
-        {
-            "name": "poi_highlight",
-            "option": 2
-        },
-        {
-            "name": "exclusive_access",
-            "option": 0
-        },
-        {
-            "name": "chapter",
-            "option": 0
-        },
-        {
-            "name": "selfpromo",
-            "option": 2
-        },
-        {
-            "name": "interaction",
-            "option": 2
-        },
-        {
-            "name": "intro",
-            "option": 2
-        },
-        {
-            "name": "outro",
-            "option": 2
-        },
-        {
-            "name": "preview",
-            "option": 2
-        },
-        {
-            "name": "filler",
-            "option": 2
-        },
-        {
-            "name": "music_offtopic",
-            "option": 2
-        }
-    ],
+    "isVip": false,
     "chapterCategoryAdded": true,
     "invidiousInstances": [
         "www.youtubekids.com",
@@ -84,13 +39,59 @@
     ],
     "categoryPillUpdate": true,
     "showZoomToFillError2": false,
-    "isVip": false,
+    "categorySelections": [
+        {
+            "name": "sponsor",
+            "option": 2
+        },
+        {
+            "name": "poi_highlight",
+            "option": 1
+        },
+        {
+            "name": "exclusive_access",
+            "option": 0
+        },
+        {
+            "name": "chapter",
+            "option": 0
+        },
+        {
+            "name": "selfpromo",
+            "option": 2
+        },
+        {
+            "name": "interaction",
+            "option": 2
+        },
+        {
+            "name": "intro",
+            "option": 2
+        },
+        {
+            "name": "outro",
+            "option": 2
+        },
+        {
+            "name": "preview",
+            "option": 2
+        },
+        {
+            "name": "filler",
+            "option": 2
+        },
+        {
+            "name": "music_offtopic",
+            "option": 2
+        }
+    ],
     "autoSkipOnMusicVideos": true,
     "hideInfoButtonPlayerControls": true,
     "cleanPopup": true,
     "showNewFeaturePopups": false,
     "showDonationLink": false,
     "showUpsells": false,
+    "hideVideoPlayerControls": true,
     "defaultCategory": "chooseACategory",
     "renderSegmentsAsChapters": false,
     "forceChannelCheck": false,
@@ -108,7 +109,6 @@
     "trackDownvotesInPrivate": false,
     "dontShowNotice": false,
     "noticeVisibilityMode": 3,
-    "hideVideoPlayerControls": true,
     "hideDeleteButtonPlayerControls": false,
     "hideUploadButtonPlayerControls": false,
     "hideSkipButtonPlayerControls": false,
@@ -117,7 +117,7 @@
     "supportInvidious": false,
     "serverAddress": "https://sponsor.ajay.app",
     "minDuration": 0,
-    "skipNoticeDuration": 4,
+    "skipNoticeDuration": "5",
     "audioNotificationOnSkip": false,
     "checkForUnlistedVideos": false,
     "testingServer": false,
