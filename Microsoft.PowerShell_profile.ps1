@@ -19,13 +19,13 @@ function reloadterminal { exit & wt }
 
 # Winget
 function ws {
-    Write-Host "Found WinGet packages..." -ForegroundColor "Cyan" 
+    Write-Host "`nSearching WinGet database...`n" -ForegroundColor "Cyan" 
     winget search @args
 
-    Write-Host "Found Chocolatey packages..." -ForegroundColor "Cyan"
+    Write-Host "`nSearching Chocolatey database...`n" -ForegroundColor "Cyan"
     choco search @args
     
-    Write-Host "Found Scoop packages..." -ForegroundColor "Cyan"
+    Write-Host "`nSearching Scoop database...`n" -ForegroundColor "Cyan"
     scoop search @args
 }
 
