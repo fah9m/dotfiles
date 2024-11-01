@@ -36,35 +36,35 @@ function wi {
 }
 
 function wul { 
-    Write-Host "`nChecking updates for WinGet packages..." -ForegroundColor "Cyan"
+    Write-Host "`nChecking updates for WinGet packages...`n" -ForegroundColor "Cyan"
     winget upgrade --include-pinned
 
-    Write-Host "`nChecking updates for Scoop packages..." -ForegroundColor "Cyan"
+    Write-Host "`nChecking updates for Scoop packages...`n" -ForegroundColor "Cyan"
 	scoop status
 
-    Write-Host "`nChecking updates for Windows system..." -ForegroundColor "Cyan"
+    Write-Host "`nChecking updates for Windows system...`n" -ForegroundColor "Cyan"
     gsudo Get-WindowsUpdate -Verbose
 }
 
 function wu {
-    Write-Host "`nUpgrading WinGet packages..." -ForegroundColor "Cyan"
+    Write-Host "`nUpgrading WinGet packages...`n" -ForegroundColor "Cyan"
     winget upgrade --all --accept-package-agreements --accept-source-agreements
 
-    Write-Host "`nUpgrading Scoop packages..." -ForegroundColor "Cyan"
+    Write-Host "`nUpgrading Scoop packages...`n" -ForegroundColor "Cyan"
     scoop update
 	scoop update --all
     scoop status
 
-    Write-Host "`nUpgrading Chocolatey packages..." -ForegroundColor "Cyan"
+    Write-Host "`nUpgrading Chocolatey packages...`n" -ForegroundColor "Cyan"
     gsudo choco upgrade all -y
 
-    Write-Host "`nUpgrading Pip binary..." -ForegroundColor "Cyan"
+    Write-Host "`nUpgrading Pip binary...`n" -ForegroundColor "Cyan"
     python.exe -m pip install --upgrade pip
 
-    Write-Host "`nUpgrading Pipx packages..." -ForegroundColor "Cyan"
+    Write-Host "`nUpgrading Pipx packages...`n" -ForegroundColor "Cyan"
     pipx upgrade-all --verbose
     
-    Write-Host "`nUpgrading Windows system..." -ForegroundColor "Cyan"
+    Write-Host "`nUpgrading Windows system...`n" -ForegroundColor "Cyan"
     gsudo Get-WindowsUpdate -AcceptAll -Install -IgnoreReboot -Verbose
 
     Remove-ItemSafely "$HOME\Desktop\*.lnk", "C:\Users\Public\Desktop\*.lnk"
