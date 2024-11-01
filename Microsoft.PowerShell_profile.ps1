@@ -36,7 +36,7 @@ function wi {
 }
 
 function wul { 
-    Write-Host "Checking updates for WinGet packages..." -ForegroundColor "Cyan"
+    Write-Host "`nChecking updates for WinGet packages..." -ForegroundColor "Cyan"
     winget upgrade --include-pinned
 
     Write-Host "`nChecking updates for Scoop packages..." -ForegroundColor "Cyan"
@@ -47,7 +47,7 @@ function wul {
 }
 
 function wu {
-    Write-Host "Upgrading WinGet packages..." -ForegroundColor "Cyan"
+    Write-Host "`nUpgrading WinGet packages..." -ForegroundColor "Cyan"
     winget upgrade --all --accept-package-agreements --accept-source-agreements
 
     Write-Host "`nUpgrading Scoop packages..." -ForegroundColor "Cyan"
@@ -68,8 +68,6 @@ function wu {
     gsudo Get-WindowsUpdate -AcceptAll -Install -IgnoreReboot -Verbose
 
     Remove-ItemSafely "$HOME\Desktop\*.lnk", "C:\Users\Public\Desktop\*.lnk"
-
-    Write-Host "System and packages are up to date." -ForegroundColor "Green"
 }
 
 # Repair
